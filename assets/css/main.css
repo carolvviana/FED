@@ -1861,7 +1861,7 @@ section {
 
 .hero .carousel-item::before {
   content: "";
-  /* background-color: rgb(21, 85, 82, 0.3); */
+  background-color: rgb(21, 85, 82, 0.3);
   position: absolute;
   inset: 0;
 }
@@ -1878,7 +1878,7 @@ section {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgb(21, 85, 82, 0.7);
+  background-color: rgb(21, 85, 82, 0.3);
 }
 
 .hero .info {
