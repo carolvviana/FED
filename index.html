@@ -81,8 +81,16 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero">
+      <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+  <div class="overlay"></div>
 
-    <div class="info d-flex align-items-center">
+  <!-- The HTML5 video element that will create the background video on the header -->
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" style="width: 100%;">
+    <source src="assets/final-teste-1-face.mp4" type="video/mp4">
+  </video>
+
+
+    <!-- <div class="info d-flex align-items-center">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center">
@@ -92,11 +100,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+    <!-- <div id="hero-carousel" class="background-video" data-bs-ride="carousel" data-bs-interval="5000"> -->
 
-      <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/hero-carousel-2.jpg)"></div>
+      <!-- <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/hero-carousel-2.jpg)"></div>
       <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-1.jpg)"></div>
       <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-3.jpg)"></div>
       <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-4.jpg)"></div>
@@ -108,9 +116,9 @@
 
       <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-      </a>
+      </a> -->
 
-    </div>
+    <!-- </div> -->
 
   </section><!-- End Hero Section -->
 
