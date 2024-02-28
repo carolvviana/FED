@@ -2437,7 +2437,7 @@
     };
   }
 
-  // of the `<html>` and `<body>` rect bounds if horizontally scrollable
+  // of the `<html>` and `<body style="margin-top: 0px !important;">` rect bounds if horizontally scrollable
 
   function getDocumentRect(element) {
     var _element$ownerDocumen;
