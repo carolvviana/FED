@@ -424,7 +424,13 @@ section {
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
+
 @media (max-width: 1279px) {
+
+  .breadcrumbs h2 {
+    font-size: 40px; /* Adjust this value as needed */
+  }
+
   .navbar {
     position: fixed;
     top: 0;
